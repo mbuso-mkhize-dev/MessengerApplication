@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerApplication.Common", "MessengerApplication.Common\MessengerApplication.Common.csproj", "{E91596B3-1C50-481B-ABC4-52E54712EF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerApplication.Receiver", "MessengerApplication.Receiver\MessengerApplication.Receiver.csproj", "{6ACB3D8A-E83F-44ED-A3BF-A81EEA6725F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerApplication.Broadcaster", "MessengerApplication.Broadcaster\MessengerApplication.Broadcaster.csproj", "{B198465A-5DFF-4466-B041-846A78A7A0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerApplication.Tests", "MessengerApplication.Tests\MessengerApplication.Tests.csproj", "{7315B970-2B1D-48CD-90C0-FE18D1CC376C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E91596B3-1C50-481B-ABC4-52E54712EF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91596B3-1C50-481B-ABC4-52E54712EF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91596B3-1C50-481B-ABC4-52E54712EF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91596B3-1C50-481B-ABC4-52E54712EF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACB3D8A-E83F-44ED-A3BF-A81EEA6725F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACB3D8A-E83F-44ED-A3BF-A81EEA6725F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACB3D8A-E83F-44ED-A3BF-A81EEA6725F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACB3D8A-E83F-44ED-A3BF-A81EEA6725F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B198465A-5DFF-4466-B041-846A78A7A0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B198465A-5DFF-4466-B041-846A78A7A0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B198465A-5DFF-4466-B041-846A78A7A0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B198465A-5DFF-4466-B041-846A78A7A0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7315B970-2B1D-48CD-90C0-FE18D1CC376C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7315B970-2B1D-48CD-90C0-FE18D1CC376C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7315B970-2B1D-48CD-90C0-FE18D1CC376C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7315B970-2B1D-48CD-90C0-FE18D1CC376C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28CF1BA0-E149-4005-BDA8-454B6D8CAD57}
+	EndGlobalSection
+EndGlobal
